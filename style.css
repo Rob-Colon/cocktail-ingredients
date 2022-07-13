@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Roboto Serif", serif;
+
+  --fs: 10px;
+
+  --clr-white: #ffe6e1;
+  --clr-light: #fffcb9;
+  --clr-medium: #97956d;
+  --clr-dark: #5c5b4a;
+  --clr-black: #171713;
+  --clr-accent: #7eb678;
+}
+body {
+  background-color: var(--clr-black);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: fit-content;
+  width: auto;
+  max-width: 500px;
+  margin: auto;
+  /* border: solid var(--clr-medium) 2px; */
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  color: var(--clr-white);
+}
+#frame {
+  background-color: var(--clr-dark);
+  padding: 2rem;
+}
+#drink-section h1 {
+  font-size: 3rem;
+  color: var(--clr-light);
+  margin: 1.5rem;
+}
+ul {
+  color: var(--clr-light);
+  margin: 1rem;
+}
+hr {
+  margin-bottom: 1.5rem;
+  color: var(--clr-accent);
+}
+card {
+  color: var(--clr-white);
+}
